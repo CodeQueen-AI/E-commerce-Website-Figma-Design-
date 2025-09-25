@@ -49,7 +49,7 @@ export default function Home() {
             <textarea
               placeholder="Your Message"
               className="w-full p-2 border border-gray-300 rounded-lg"
-              rows="4"
+              rows={4}
             ></textarea>
 
             {/* Send button */}
@@ -65,3 +65,4 @@ export default function Home() {
     </div>
   );
 }
+
